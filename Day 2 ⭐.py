@@ -4,12 +4,6 @@ with open("input_day_2") as input_data:
 data_lst_2d = [command.split() for command in data_lst]
 
 
-# for lst_element in data_lst_2d:
-#     lst_element[1] = int(lst_element[1])
-#
-# print(data_lst_2d)
-
-
 def calculation_submarine_position(lst):
     horizontal_position = 0
     depth = 0
